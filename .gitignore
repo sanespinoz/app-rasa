@@ -1,0 +1,34 @@
+# Entorno virtual (Python)
+rasa_env/
+venv/
+.env
+
+# Archivos de Python compilados
+__pycache__/
+*.pyc
+*.pyo
+
+# Modelos entrenados de Rasa
+models/
+
+# Archivos de logs y debugging
+logs/
+*.log
+*.db
+*.sqlite
+*.lock
+
+# Datos temporales y de cache
+.cache/
+.node_modules/
+*.pid
+*.pydevproject
+*.project
+
+# Configuración de IDEs
+.vscode/
+.idea/
+*.iml
+
+# Dependencias de Rasa
+*.rasa
